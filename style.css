@@ -2,34 +2,72 @@ body {
   padding-left: 11em;
   font-family: Georgia, "Times New Roman",
         Times, serif;
-  color: purple;
+  color: black;
   background-color: #d8da3d }
-ul.navbar {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 2em;
-  left: 1em;
-  width: 9em }
 h1 {
   font-family: Helvetica, Geneva, Arial,
         SunSans-Regular, sans-serif }
-ul.navbar li {
-  background: white;
-  margin: 0.5em 0;
-  padding: 0.3em;
-  border-right: 1em solid black }
-ul.navbar a {
-  text-decoration: none }
-a:link {
-  color: blue }
-a:visited {
-  color: purple }
-address {
-  margin-top: 1em;
-  padding-top: 1em;
-  border-top: thin dotted }
+
+
+p{
+  color:red;
+  font-size: 20px;
+}
+
+table{
+  width: 50%;
+  border: 1px solid black;
+  margin: 0;
+  border-collapse: collapse;
+
+}
+
+thead tr{background: white}
+  
+
+tr:nth-child(even) {background: lightgreen}
+tr:nth-child(odd) {background: lightblue}
+
+
+
+
+
+th{
+  font-weight: bold;
+}
+
+
+th,td{
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;	
+  text-align: left;
+}
+
+
+
+
+td:nth-child(1){
+  font-style: italic;
+}
+
+
+td:nth-child(2){
+  color: red;
+}
+
+td:nth-child(4){
+  color: blue;
+}
+
+dt:hover+dd{ /* th:hover also if you wish */
+  background: yellow;
+}
+
+tfoot tr td{
+    color: black;
+    background-color: white;
+}
+
 
 
 
