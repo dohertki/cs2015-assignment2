@@ -10,29 +10,29 @@ h1 {
 
 
 p{
-  color:red;
+  color:black;
   font-size: 20px;
 }
 
 table{
   width: 50%;
-  border: 1px solid black;
+  border: 2px solid black;
   margin: 0;
   border-collapse: collapse;
 
 }
 
-thead tr{background: white}
   
 
-tr:nth-child(even) {background: lightgreen}
-tr:nth-child(odd) {background: lightblue}
+tbody > tr:nth-child(even) {background: lightgreen}
+tbody > tr:nth-child(odd) {background: lightblue}
+
+
+/*thead tr th{background: white}*/
 
 
 
-
-
-th{
+thead th{
   font-weight: bold;
 }
 
@@ -46,7 +46,7 @@ th,td{
 
 
 
-td:nth-child(1){
+tbody tr th{
   font-style: italic;
 }
 
@@ -59,9 +59,6 @@ td:nth-child(4){
   color: blue;
 }
 
-dt:hover+dd{ /* th:hover also if you wish */
-  background: yellow;
-}
 
 tfoot tr td{
     color: black;
@@ -69,6 +66,9 @@ tfoot tr td{
 }
 
 
+dt:hover+dd{ /* th:hover also if you wish */
+  background: purple;
+}
 
 
 
