@@ -1,38 +1,31 @@
-i<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Assignment 2</title>
-    <link rel=stylesheet href="style.css">
+<head>
+  <meta charset="utf-8">
+  <title>Assignment 2</title>
+  <link rel=stylesheet type="text/css" href="style.css">
 
-  </head>
-  <body>
-    <p> Hello!</p>
+</head>
+<body>
+  <p> Hello!</p>
 
-  <! this is a comment>
+<!Create a table>
 
-
-  <h1>
-
-  </h1>
-  <table>
-    <caption>Something here</caption>
-    <thead> 
-
-
-    
-    <tr><!this tag is a row element> 
-      <th></th>  <!this tag is for element in table head>
+<table>
+    <caption>This is the Caption</caption>
+  <thead> 
+    <tr>
+      <th></th>  
       <th>one</th>  
-      <th>one</th>  
-      <th>one</th>  
-      <th>one</th>  
-      <th>one</th>  
+      <th>two</th>  
+      <th>three</th>  
+      <th>four</th>  
+      <th>five</th>  
     </tr> 
   </thead>
   </tbody>   
      <tr>
-      <th>one</th><!this tag is for a cell element>  
+      <th>one</th>  
       <td>one</td>  
       <td>one</td>  
       <td>one</td>  
@@ -40,7 +33,7 @@ i<!DOCTYPE html>
       <td>one</td>  
     </tr>
     <tr>
-      <th>one</th>  
+      <th>two</th>  
       <td>one</td>  
       <td>one</td>  
       <td>one</td>  
@@ -48,7 +41,7 @@ i<!DOCTYPE html>
       <td>one</td>  
     </tr>
      <tr>
-      <th>one</th>  
+      <th>three</th>  
       <td>one</td>  
       <td>one</td>  
       <td>one</td>  
@@ -56,7 +49,7 @@ i<!DOCTYPE html>
       <td>one</td>  
     </tr>
     <tr>
-      <th>one</th>  
+      <th>four</th>  
       <td>one</td>  
       <td>one</td>  
       <td>one</td>  
@@ -64,15 +57,7 @@ i<!DOCTYPE html>
       <td>one</td>  
     </tr>   
     <tr>
-      <th>one</th>  
-      <td>one</td>  
-      <td>one</td>  
-      <td>one</td>  
-      <td>one</td>  
-      <td>one</td>  
-    </tr>
-    <tr>
-      <th>one</th>  
+      <th>five</th>  
       <td>one</td>  
       <td>one</td>  
       <td>one</td>  
@@ -82,13 +67,14 @@ i<!DOCTYPE html>
   </tbody>
   <tfoot>
     <tr>
-      <th colspan="2"> foot</td>
+      <th colspan="2"> foot one</td>
       <th colspan="4"> foot two</td>
   </tfoot>
 
+</table>
 
-  </table>
-
+<!Create a list>
+  <h1> Make a list</h1>
 
   <dl> 
     <dt>One</dt>
@@ -99,13 +85,20 @@ i<!DOCTYPE html>
     <dd>is a leter</dd>
   </dl>
 
-  <h1> Make a list</h1>
 
+<! Create a box  75% width>
+
+<div class="outer_content">
+
+ <div class="inner_content">
+    <p> This is some content in a box</p>
+  </div>
+</div>
+
+<br>
 
 
 <!This is the form section>
-
-
 
 <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
 
@@ -141,28 +134,52 @@ i<!DOCTYPE html>
 
 </form>
 
-<section>
-<div style="background-color:yellow; width:80%;height:40px;">
+<!Create second form>
 
-</section>
+<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+
+  <div>
+    <label for="text_input">Word:</label>
+    <input type="text" name="text_input" />
+  </div>
+
+  
+  <div>
+    <label for="numerical_input">Number:</label>
+    <input type="number" name="numerical_input" />
+  </div>
+
+  <div>
+    <label for="password_input">Password:</label>
+    <input type="password" name="password_input" />
+  </div>
+  <div>
+    <input type="radio" name="candy" value="snickers" checked>Snickers
+    <br>
+    <input type="radio" name="candy" value="skittles" checked>Skittles
+    <br>
+    <input type="radio" name="candy" value="mentos" checked>Mentos
+    
 
 
-</div>
-<div style="float:left">
+  </div>
 
-  <img src="http://s3.amazonaws.com/codecademy-blog/assets/f3a16fb6.jpg"/>
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+
+</form>
+
+<!Create wrapped text>
+
+<div>
+  <img src="https://lh5.googleusercontent.com/JZwvcoUsSd8kvvsA7QGZqW0Snvx2SGhhySSPWXaHcGY=w166-h207-p-no"/>
 </div>
 It was a heavy mass of building, that chateau of Monsieur the Marquis, with a large stone courtyard before it, and two stone sweeps of staircase meeting in a stone terrace before the principal door. A stony business altogether, with heavy stone balustrades, and stone urns, and stone flowers, and stone faces of men, and stone heads of lions, in all directions. As if the Gorgon's head had surveyed it, when it was finished, two centuries ago.
 Up the broad flight of shallow steps, Monsieur the Marquis, flambeau preceded, went from his carriage, sufficiently disturbing the darkness to elicit loud remonstrance from an owl in the roof of the great pile of stable building away among the trees. All else was so quiet, that the flambeau carried up the steps, and the other flambeau held at the great door, burnt as if they were in a close room of state, instead of being in the open night-air. Other sound than the owl's voice there was none, save the falling of a fountain into its stone basin; for, it was one of those dark nights that hold their breath by the hour together, and then heave a long low sigh, and hold their breath again.
 The great door clanged behind him, and Monsieur the Marquis crossed a hall grim with certain old boar-spears, swords, and knives of the chase; grimmer with certain heavy riding-rods and riding-whips, of which many a peasant, gone to his benefactor Death, had felt the weight when his lord was angry.
 
 
-  
-
- </body>
-
-
-
-  
+</body>
 
 </html>
